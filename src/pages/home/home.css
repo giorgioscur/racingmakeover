@@ -1,0 +1,23 @@
+.home {
+  display: grid;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.home_row-container {
+  height: 380px;
+  display: flex;
+  margin-bottom: 24px;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_row-container.first-row {
+  padding-left: 180px;
+}
+
+.home_row-container.third-row {
+  padding-right: 180px;
+}

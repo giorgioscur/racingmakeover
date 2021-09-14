@@ -1,0 +1,15 @@
+.footer_container {
+  background: var(--cement);
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer_dev-contact {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background: var(--asphalt);
+  font-size: var(--smaller);
+}

@@ -1,0 +1,14 @@
+.skewed-text-card_container * {
+  font-size: var(--larger);
+  transform: skewX(-16deg);
+  width: 270px;
+  flex-shrink: 0;
+}
+
+.skewed-text-card_text {
+  text-align: right;
+}
+
+.skewed-text-card_align-left {
+  text-align: left;
+}

@@ -1,0 +1,48 @@
+.navbar {
+  background: var(--white);
+  padding: 0 80px;
+}
+
+.navbar_logo-container {
+  height: 64px;
+  padding: 4px 0;
+  padding-left: 8px;
+  transform: skewX(-12deg);
+}
+
+.navbar_logo-container img {
+  height: 100%;
+  width: auto;
+  transform: skewX(12deg);
+}
+
+.navbar_unordered-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-evenly;
+  height: 64px;
+  align-items: center;
+}
+
+.navbar_list-item * {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--font-highlight);
+  color: var(--asphalt);
+  font-size: var(--medium);
+}
+
+.navbar_list-item *:hover {
+  color: var(--ferrari);
+  transition: text-shadow 0.3s;
+}
+
+.navbar_link--selected {
+  color: var(--ferrari);
+}
+
+.navbar_link--selected:hover {
+  color: var(--white);
+  transition: text-shadow 0.3s;
+}
